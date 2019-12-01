@@ -1,7 +1,7 @@
 import os
 
-from django.core.management.base import BaseCommand
 from django.core.exceptions import ImproperlyConfigured
+from django.core.management.base import BaseCommand
 
 from twitter_analytics.collector.services import TweetCollectorService
 

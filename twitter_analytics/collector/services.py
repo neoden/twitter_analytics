@@ -1,12 +1,10 @@
 import logging
 
 import tweepy
-
-from django.db.models import Max
 from django.db import transaction
+from django.db.models import Max
 
 from . import models
-
 
 log = logging.getLogger(__name__)
 

@@ -3,7 +3,6 @@ from django.urls import path
 import twitter_analytics.collector.views
 import twitter_analytics.metrics.views
 
-
 urlpatterns = [
     path(
         'api/tweets/',
