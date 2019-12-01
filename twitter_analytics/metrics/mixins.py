@@ -1,7 +1,7 @@
 from django.db import connection
+from django.http import JsonResponse
 from django.template.loader import render_to_string
 from django.utils.dateparse import parse_datetime
-from django.http import JsonResponse
 
 from .utils import dictfetchall
 
